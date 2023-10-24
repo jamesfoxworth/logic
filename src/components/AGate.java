@@ -12,6 +12,10 @@ public class AGate {
     public Boolean getState() {
         return this.state;
     }
+
+    public void setInputs(List<Boolean> inputs) {
+        this.inputs = inputs;
+    }
     public void flip() {
         this.state = !this.state;
     }
